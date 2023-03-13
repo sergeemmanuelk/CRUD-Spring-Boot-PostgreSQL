@@ -16,7 +16,7 @@ import com.example.api.model.User;
 import com.example.api.service.UserService;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/user")
 public class UserController {
 	@Autowired
 	private UserService userService;
